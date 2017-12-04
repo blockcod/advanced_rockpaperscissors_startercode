@@ -19,12 +19,25 @@
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
-
-
+var userChoice = "";
+var computerChoice = "";
+var winner= "";
+var choice = ["Rock", "Paper", "Scissors"];
 
 //FUNCTIONS
+$(document).ready(function(){
+        
 
+        
+
+$("#submit").click(function(){
+        var computerChoice = Math.random() *3;
+        var input = $("#input").val()
+        input
+        $("#result").append();
+});
 
 
 // DOCUMENT READY FUNCTION
 
+});
